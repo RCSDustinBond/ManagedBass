@@ -10,6 +10,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="iOS\**" />
+    <Compile Remove="Portable\**" />
+    <EmbeddedResource Remove="iOS\**" />
+    <EmbeddedResource Remove="Portable\**" />
+    <None Remove="iOS\**" />
+    <None Remove="Portable\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\Bass\Portable\Bass.csproj" />
   </ItemGroup>
 
