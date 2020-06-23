@@ -34,7 +34,7 @@ namespace ManagedBass.Enc
         /// Encoder options... NULL = use defaults. 
         /// -t {type} ... "type" can be: 2/5/23/29/39. (The default is type 2 CBR.)
         /// See here for descriptions: https://en.wikipedia.org/wiki/MPEG-4_Part_3#MPEG-4_Audio_Object_Types
-        /// v {vbr} ... "vbr" can be 0 (CBR) or 1-5 (VBR levels).
+        /// -v {vbr} ... "vbr" can be 0 (CBR) or 1-5 (VBR levels).
         /// -b {bitrate}...bitrate for CBR.
         /// Uses FDK-AAC Encoder Library: https://github.com/mstorsjo/fdk-aac
         /// </param>
